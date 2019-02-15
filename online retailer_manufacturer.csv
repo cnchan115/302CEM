@@ -1,0 +1,13 @@
+Online retailer -> Manufacturer,,,
+,,,
+Key,Attributes,DataType,Sample data
+PK,item_id,char(5),IT001
+,item_name,varchar(80),Addidas Shoes
+,quantity,int,24
+,deadline_date,DateTime,30/01/2019
+PK,retailer_id,char(5),RE001
+,retailer_name,varchar(50),OR Ltd
+,retailer_tel,int(8),2589 2147
+,retailer_address,varchar(100),"Tat Chee Ave, 2410, 2/F, Li Dak Sum Yip Yio Chin Academic Building (LI), City University of Hong Kong"
+PK,manufacturer_id,char(5),MA001
+,manufacturer_name,varchar(50),Ma Ltd

@@ -1,0 +1,17 @@
+Online Retailer --> Logistics,,,
+,,,
+Key,Attributes,DataType,Sample data
+PK,Order_id,char(5),OR001
+,Order_weight,"float(6,2)",14.5
+,Order_description,varchar(80),"Fragile, handle with care!"
+,Quantity,int,3
+PK,Customer_id,char(5),CU001
+,Customer_name,varchar(50),Cherry Chan
+,Customer_address,varchar(100),"8/F United Centre, 95 Queensway, Admiralty, Hong Kong"
+,Customer_tel,int(8),9999 8888
+,Pickup_Ready_Day,DateTime,30/01/2019
+PK,Logistics_id,char(5),LG001
+,Logistics_name,varchar(50),SF Express
+PK,Retailer_id,char(5),RE001
+,Retailer_address,varchar(100),"UG301, ChinaChem Golden Plaza, 77 Mody Road, Tsim Sha Tsui East, Kowloon"
+,Retailer_tel,int(8),2589 2147
